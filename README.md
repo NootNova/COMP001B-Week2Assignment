@@ -1,3 +1,7 @@
+
+Author: Nova Wolta
+Purpose: Work for the COMP001B Week 2 assignment.
+
 # comp1b-m02-assignment
 
 ## This starter is for one task only
@@ -21,7 +25,9 @@ Follow the matching Canvas directions and existing rubric for the precise requir
 ## Source record
 
 - Starter: comp1b-m02-assignment-starter.zip
-- Earlier work copied, if any: [repository URL + baseline commit, or none]
+
+- Earlier work copied: https://github.com/NootNova/COMP1B-Week2Lesson  [Grabbed the CSS code for the artical-card class]
+
 - My own changes for THIS task: [explain]
 
 ## Measured box model
@@ -29,9 +35,12 @@ Follow the matching Canvas directions and existing rubric for the precise requir
 Write actual observations in this README.md. Replace placeholders with your results, including failures and limitations. A planned test is not a completed test. Add rows as needed; a check that found no defect should say so honestly. The matching Canvas task defines the work due at this stage.
 
 | Controlled state | Content width | Border-box width | Outside left / right margins | Total horizontal footprint | Prediction and measured result |
+
 | --- | --- | --- | --- | --- | --- |
+
 | 240px content-box | [record] | [record] | [record each] | [record] | [explain] |
-| 240px border-box | [record] | [record] | [record each] | [record] | [explain] |
+
+| 240px border-box | 204px | 240px | 12px - 12px | 264px | My Predictions come from a base width of 240px, this being declared "border-box" the stated width is the max the width of the Content, Padding, and Border can extened to. This means that because the border-box width is the stated 240px, the content width is found by subtracting by both sides of the padding and border from this number, they are set to 16px(32px for both sides) and 2px(4px for both sides) respectively, the math is 240px - 32px - 4px = 204px. The margin is set outside of those calculations but plays into the total horizonatal footprint, the left and right margin are 12px each and when added to the border-box width (240px + 12px + 12px) give the total horizonatal width of 264px.
 
 ## Display and flexible-card evidence
 

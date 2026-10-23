@@ -1,11 +1,33 @@
+
 /* Add and inspect the rules from each lesson. */
 
 body {
+
   font-family: system-ui, sans-serif;
+
   line-height: 1.5;
+
 }
 
 a:focus-visible {
+
   outline: 3px solid #9c3a00;
+
   outline-offset: 3px;
+
 }
+
+.article-card {
+
+  box-sizing: border-box;
+
+  width: 240px;
+
+  padding: 16px;
+
+  border: 2px solid #17324d;
+
+  margin: 12px;
+
+}
+
