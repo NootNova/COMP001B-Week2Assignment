@@ -31,3 +31,16 @@ a:focus-visible {
 
 }
 
+.badge {
+    
+    width: 6rem;
+    
+    padding: .25rem;
+    
+    border: 1px solid;
+
+    display: inline;
+
+}
+
+  

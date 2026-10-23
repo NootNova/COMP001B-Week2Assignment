@@ -26,7 +26,7 @@ Follow the matching Canvas directions and existing rubric for the precise requir
 
 - Starter: comp1b-m02-assignment-starter.zip
 
-- Earlier work copied: https://github.com/NootNova/COMP1B-Week2Lesson  [Grabbed the CSS code for the artical-card class]
+- Earlier work copied: https://github.com/NootNova/COMP1B-Week2Lesson  [Grabbed the CSS code for the article-card class and badge class]
 
 - My own changes for THIS task: [explain]
 
@@ -52,7 +52,7 @@ Write actual observations in this README.md. Replace placeholders with your resu
 
 ## Display and flexible-card evidence
 
-Block / inline / inline-block comparison: [what changed for the badge and why]
+Block / inline / inline-block comparison: Block and Inline-block both give the content extra horizontal value where as Inline keeps the content to the size of the text. The Padding, Border, and Margins are untouched from any of the display declarations. This is because any of the "Block" declarations make a "Block" element and those always occupy the full available width.
 
 Final flexible-card choices: [sizing, padding, border and margin decisions]
 
