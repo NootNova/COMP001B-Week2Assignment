@@ -107,8 +107,32 @@ Temporary inspector experiments do not replace the assignment's final saved flex
 Write actual observations in this README.md. Replace placeholders with your results, including failures and limitations. A planned test is not a completed test. Add rows as needed; a check that found no defect should say so honestly. The matching Canvas task defines the work due at this stage.
 
 | Action / input / conditions | Prediction before running | Actual before change | My change or none | Actual after / explanation |
-| --- | --- | --- | --- | --- |
-| [specific case] | [prediction] | [observation] | [file / selector / change or none] | [retest] |
+
+----------------------------------------------------
+
+.article-card {
+
+  width: 280px; 
+  
+  padding: 20px;
+  
+  border: 3px solid;
+  
+  margin: 12px;
+  
+  box-sizing: content-box;
+
+}
+
+PREDICTIONS =
+
+| Content width = 280px | Border-box width = 280px + padding x2 (20px + 20px) + border x2 (3px + 3px) = 326px | Outside margins = 12px left / 12px right | Total horizontal footprint = 326px + left & right margin (12px + 12px) = 350px
+
+ACUTAL = 
+
+| Content width = px | Border-box width = px | Outside margins = px left / px right | Total horizontal footprint = px |
+
+----------------------------------------------------
 
 ## Submission checklist
 
