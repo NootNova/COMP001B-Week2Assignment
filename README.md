@@ -110,8 +110,6 @@ Write actual observations in this README.md. Replace placeholders with your resu
 
 ----------------------------------------------------
 
-.article-card {
-
   width: 280px; 
   
   padding: 20px;
@@ -121,8 +119,6 @@ Write actual observations in this README.md. Replace placeholders with your resu
   margin: 12px;
   
   box-sizing: content-box;
-
-}
 
 PREDICTIONS =
 
@@ -148,11 +144,11 @@ I threw a display inline-block onto the article card and it has the card fitting
 
 ## Submission checklist
 
-- [ ] My source and README belong to this task’s separate folder/repository.
-- [ ] I saved, committed, pushed, and opened this repository on GitHub to verify the files.
-- [ ] Repository URL: [THIS repository]
-- [ ] Live GitHub Pages URL(s), when required: [THIS project’s deployed URL(s)]
-- [ ] I submitted THIS repository URL to the matching Canvas item using Website URL and checked the submission confirmation.
+- [x] My source and README belong to this task’s separate folder/repository.
+- [x] I saved, committed, pushed, and opened this repository on GitHub to verify the files.
+- [x] Repository URL: https://github.com/NootNova/COMP001B-Week2Assignment
+- [x] Live GitHub Pages URL(s), when required: [THIS project’s deployed URL(s)]
+- [x] I submitted THIS repository URL to the matching Canvas item using Website URL and checked the submission confirmation.
 
 Activity Text Entry remains available only as described in the Canvas directions. A push or deployment does not submit Canvas work. Future-use drafts have no current submission or deadline until activated.
 
