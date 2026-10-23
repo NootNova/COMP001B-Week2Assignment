@@ -40,7 +40,7 @@ Write actual observations in this README.md. Replace placeholders with your resu
 
 | 240px content-box | 240px | 276px | 12px - 12px | 300px | My Predictions with the content-box come from how the padding and border are outside the content which means the declared width is the content width (240px). The padding and border are added to this number twice, once for each side (left & right) [16px x 2 = 32px] [2px x 2 = 4px] 32px + 4px + 240px = 276px. The margin is outside of this and is added twice to find the total horizontal footprint, [12px x 2 = 24px] 24px + 276px = 300px |
 
-| 240px content-box acutal |
+| 240px content-box acutal | 240px | 275.2px | 12px - 12px | 299.2px | the border issuse is taking another 0.8px from the total footprint.
 
 ---------------------------------------------------
 
