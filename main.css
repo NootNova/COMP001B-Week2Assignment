@@ -1,0 +1,11 @@
+/* Add and inspect the rules from each lesson. */
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+a:focus-visible {
+  outline: 3px solid #9c3a00;
+  outline-offset: 3px;
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS practice</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <a class="skip-link" href="#content">Skip to main content</a>
+    <div class="page-wrapper">
+      <header>
+        <h1 id="page-title">Community learning studio</h1>
+        <p class="intro">Practice CSS with a small supplied website.</p>
+
+        <nav aria-label="Primary">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#workshops">Workshops</a></li>
+            <li><a href="#visit">Visit</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="layout">
+        <main id="content">
+          <article class="article-card card" id="about">
+            <h2>About the studio</h2>
+            <span class="badge">Practice</span>
+            <p class="float-note">Short note</p>
+            <p>
+              Our studio offers a welcoming place to learn, exchange ideas, and practice useful
+              skills. This paragraph has enough text to demonstrate how content wraps around a
+              floated note. Resize your browser and inspect the box to see what changes.
+            </p>
+            <p class="after-float">
+              This paragraph lets you practice clear independently from float containment.
+            </p>
+            <div>
+              <p>A nested paragraph helps you compare descendant and direct-child selectors.</p>
+            </div>
+          </article>
+
+          <section id="workshops">
+            <h2>Workshops</h2>
+            <p>Short guided workshops give learners time to try examples and ask questions.</p>
+            <ul class="card-list">
+              <li class="featured">Web design practice</li>
+              <li>Creative writing</li>
+              <li>Community research</li>
+              <li>Photography basics</li>
+            </ul>
+          </section>
+
+          <section id="visit">
+            <h2>Visit</h2>
+            <p>
+              Choose a workshop and bring curiosity. <a href="#about">Read about our approach</a>.
+            </p>
+          </section>
+        </main>
+
+        <aside>
+          <h2>Learning notes</h2>
+          <p>
+            Use the same content to compare different visual choices. Keep this supporting material
+            readable and reachable.
+          </p>
+        </aside>
+      </div>
+
+      <footer>
+        <p>CSS course practice. You may use a pseudonym in your project README.</p>
+      </footer>
+    </div>
+  </body>
+</html>
