@@ -19,7 +19,7 @@ a:focus-visible {
 
 .article-card {
 
-  box-sizing: border-box;
+  box-sizing: content-box;
 
   width: 240px;
 

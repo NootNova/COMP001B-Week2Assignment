@@ -36,13 +36,19 @@ Write actual observations in this README.md. Replace placeholders with your resu
 
 | Controlled state | Content width | Border-box width | Outside left / right margins | Total horizontal footprint | Prediction and measured result |
 
-| --- | --- | --- | --- | --- | --- |
+---------------------------------------------------
 
-| 240px content-box | [record] | [record] | [record each] | [record] | [explain] |
+| 240px content-box | 240px | 276px | 12px - 12px | 300px | My Predictions with the content-box come from how the padding and border are outside the content which means the declared width is the content width (240px). The padding and border are added to this number twice, once for each side (left & right) [16px x 2 = 32px] [2px x 2 = 4px] 32px + 4px + 240px = 276px. The margin is outside of this and is added twice to find the total horizontal footprint, [12px x 2 = 24px] 24px + 276px = 300px |
+
+| 240px content-box acutal |
+
+---------------------------------------------------
 
 | 240px border-box | 204px | 240px | 12px - 12px | 264px | My Predictions come from a base width of 240px, this being declared "border-box" the stated width is the max the width of the Content, Padding, and Border can extened to. This means that because the border-box width is the stated 240px, the content width is found by subtracting by both sides of the padding and border from this number, they are set to 16px(32px for both sides) and 2px(4px for both sides) respectively, the math is 240px - 32px - 4px = 204px. The margin is set outside of those calculations but plays into the total horizonatal footprint, the left and right margin are 12px each and when added to the border-box width (240px + 12px + 12px) give the total horizonatal width of 264px.
 
 | 240px border-box acutal | 204.8px | 240px | 12px - 12px | 263.2px | Note: The border issuse from the lesson is still carrying over and is causing my toatl footprint to miss 0.8px.
+
+----------------------------------------------------
 
 ## Display and flexible-card evidence
 
