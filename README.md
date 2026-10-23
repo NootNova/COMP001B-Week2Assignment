@@ -42,6 +42,8 @@ Write actual observations in this README.md. Replace placeholders with your resu
 
 | 240px border-box | 204px | 240px | 12px - 12px | 264px | My Predictions come from a base width of 240px, this being declared "border-box" the stated width is the max the width of the Content, Padding, and Border can extened to. This means that because the border-box width is the stated 240px, the content width is found by subtracting by both sides of the padding and border from this number, they are set to 16px(32px for both sides) and 2px(4px for both sides) respectively, the math is 240px - 32px - 4px = 204px. The margin is set outside of those calculations but plays into the total horizonatal footprint, the left and right margin are 12px each and when added to the border-box width (240px + 12px + 12px) give the total horizonatal width of 264px.
 
+| 240px border-box acutal | 204.8px | 240px | 12px - 12px | 263.2px | Note: The border issuse from the lesson is still carrying over and is causing my toatl footprint to miss 0.8px.
+
 ## Display and flexible-card evidence
 
 Block / inline / inline-block comparison: [what changed for the badge and why]
