@@ -26,7 +26,7 @@ Follow the matching Canvas directions and existing rubric for the precise requir
 
 - Starter: comp1b-m02-assignment-starter.zip
 
-- Earlier work copied: https://github.com/NootNova/COMP1B-Week2Lesson  [Grabbed the CSS code for the article-card class and badge class]
+- Earlier work copied: https://github.com/NootNova/COMP1B-Week2Lesson  [Grabbed the CSS code for the article-card class, badge class, page-wrapper class]
 
 - My own changes for THIS task: [explain]
 
@@ -54,13 +54,41 @@ Write actual observations in this README.md. Replace placeholders with your resu
 
 Block / inline / inline-block comparison: Block and Inline-block both give the content extra horizontal value where as Inline keeps the content to the size of the text. The Padding, Border, and Margins are untouched from any of the display declarations. This is because any of the "Block" declarations make a "Block" element and those always occupy the full available width.
 
-Final flexible-card choices: [sizing, padding, border and margin decisions]
+Final flexible-card choices: 
 
-| Check | Actual result / correction / retest |
-| --- | --- |
-| 375px | [record] |
-| 1024px | [record] |
-| CSS validation | [record] |
+The page wrapper class having the CSS:     
+
+    max-width: 70rem;
+    
+    margin-inline: auto;
+    
+    padding: 1rem; 
+
+And the article card having:
+
+    box-sizing: content-box;
+  
+    width: 100%;
+    
+    max-width: 38rem;
+
+    padding: 1rem;
+
+    border: 2px solid #17324d;
+
+    margin: 0 0 1rem;
+
+is what is going to be kept because capping off the max width to avoid over expanding for smaller veiw ports and having margin inline set to auto helps with keeping the content stable and felxable.
+
+----------------------------------------------------
+
+| 375px | The Article card rolls over the right side | fixed Article card to border-box to help with the border running over the right side | No issuses after the fix |
+
+| 1024px | No issuses to report with the veiwport |
+
+| CSS validation | No issuse to report |
+
+----------------------------------------------------
 
 ## Independent transfer check
 
