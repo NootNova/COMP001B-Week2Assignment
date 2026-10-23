@@ -130,9 +130,21 @@ PREDICTIONS =
 
 ACUTAL = 
 
-| Content width = px | Border-box width = px | Outside margins = px left / px right | Total horizontal footprint = px |
+| Content width = 280px | Border-box width = 324.8px | Outside margins = 12px left / 12px right | Total horizontal footprint = 348.8px | The border missing a 0.6px on left and right us causing a drop of 1.2px from the total horizontal footprint
 
 ----------------------------------------------------
+
+Inspecting the values shows an overlap of the margin shooting vertically over the parenent.
+
+I want to change the box-sizing to border-box. [This is like the issuse I had with the right pushing out past the veiw port and by forcing the padding and border to confine to the set width it should help with the problem.]
+
+after switching it, it got shorter but didn't fix the problem.
+
+I threw a display inline-block onto the article card and it has the card fitting the parent with the margin right along the parents horizontal footprint. This worked because switching the content to an inline forces it to fit into the parent and the block keeps it together.
+
+| 375px | No issuses to report, fits the parent and the veiwport |
+
+| 1024px | Again, no issuses everything fits; No rollover. |
 
 ## Submission checklist
 

@@ -43,7 +43,9 @@ a:focus-visible {
   
   margin: 12px;
   
-  box-sizing: content-box;
+  box-sizing: border-box;
+
+  display: inline-block;
 
 }
 
